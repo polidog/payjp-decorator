@@ -1,0 +1,10 @@
+name: ci
+
+on: ['push']
+
+jobs:
+  test:
+    - uses: actions/checkout@v1
+    - name: Run composer install
+      run: |
+        composer install
