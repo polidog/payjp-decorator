@@ -9,7 +9,7 @@ use Polidog\PayjpProxy\ApiDecorator\CallApi;
 use Polidog\PayjpProxy\ApiDecorator\CheckApiResourceClass;
 use Polidog\PayjpProxy\ApiDecorator\ClassFinder;
 
-class PayjpFactory
+class Factory
 {
     public function __invoke(string $apiKey, string $apiResourceClassName = ApiResource::class): Payjp
     {
