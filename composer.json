@@ -1,0 +1,33 @@
+{
+    "name": "polidog/payjp-decorator",
+    "license": "MIT",
+    "type": "library",
+    "description": "This library is decorated by payjp/payjp-php",
+    "require": {
+        "php": "~7.2",
+        "payjp/payjp-php": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Polidog\\PayjpProxy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Polidog\\PayjpProxy\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "polidog",
+            "email": "polidogs@gmail.com"
+        }
+    ],
+    "scripts": {
+        "cs-fix": "php-cs-fixer fix"
+    }
+}
