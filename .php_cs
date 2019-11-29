@@ -8,7 +8,6 @@ return PhpCsFixer\Config::create()
     ->setRules([
         '@Symfony' => true,
         '@Symfony:risky' => true,
-        '@DoctrineAnnotation' => true,
         '@PHP73Migration' => true,
         'array_syntax' => ['syntax' => 'short']
     ])

@@ -3,8 +3,8 @@
 namespace Polidog\PayjpProxy\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Polidog\PayjpProxy\Payjp;
 use Polidog\PayjpProxy\Factory;
+use Polidog\PayjpProxy\Payjp;
 
 class FactoryTest extends TestCase
 {
